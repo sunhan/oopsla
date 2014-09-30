@@ -27,6 +27,7 @@ public class MainActivity extends Activity{
 		t3 = (TextView)findViewById(R.id.data_check3);
 		
 		Log.e(TAG,"mainactivity ¤µ¤²");
+		t1.setText("dddd");
 		mangerReceiver = new CManagerDeviceReceiver(this);
 	/*	
 		int num = 3;
